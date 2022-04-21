@@ -1,14 +1,17 @@
 [
     {
         "name": "AC Milan",
-        "photo": "https://wallpapercave.com/wp/wp2548936.jpg"
+        "photo": "https://wallpapercave.com/wp/wp2548936.jpg",
+        "description": ""
     },
     {
         "name": "Golden State Warriors",
-        "photo": "https://cdn.wallpapersafari.com/44/13/4leHUh.png"
+        "photo": "https://cdn.wallpapersafari.com/44/13/4leHUh.png",
+        "description": "I started to get passionate about the world of basketball in 2015 when I received NBA 2K16 as a gift and from there I completely fell in love with that world so far from football that we all know in Italy. At that time the strongest team were the Golden State Warriors and over time what had begun as well as curiosity turned into real love.\nLet's go Warriors!"
     },
     {
         "name": "Attacco dei Giganti",
-        "photo": "https://i.pinimg.com/564x/1e/1f/72/1e1f72f398ac7e42f05b1161f777c8d1.jpg"
+        "photo": "https://i.pinimg.com/564x/1e/1f/72/1e1f72f398ac7e42f05b1161f777c8d1.jpg",
+        "description": "Written by Hajime Isayama. \n\nThe love for this series is something inexplicable. Since the first episode I have fallen in love with history and the various intertwining that make it up. \n\nA little taste of the plot for those unfamiliar with it: The work is set in a world where the survivors of humanity live within cities surrounded by huge defensive walls due to the sudden appearance of giants, huge humanoid creatures that devour men for no apparent reason. The story revolves around young Eren Jaeger, his adoptive sister Mikasa Ackermann and their childhood friend Armin Arelet, whose lives are turned upside down by the attack of a colossal giant and an armored giant, which leads to the destruction of their city and on the death of Eren's mother."
     }
 ]

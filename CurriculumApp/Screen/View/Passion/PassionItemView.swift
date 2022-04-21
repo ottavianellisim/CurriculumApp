@@ -14,7 +14,7 @@ struct PassionItemView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .stroke(.white, lineWidth: 1)
+                .stroke(.purple, lineWidth: 1)
                 .frame(width: 350, height: 150)
                 .foregroundColor(.clear)
                 .background(

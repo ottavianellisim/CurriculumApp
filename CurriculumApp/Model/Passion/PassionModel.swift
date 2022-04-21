@@ -10,4 +10,5 @@ import Foundation
 struct PassionModel: Hashable {
     let namePassion: String
     let photoPassion: String
+    let passionDescription: String
 }

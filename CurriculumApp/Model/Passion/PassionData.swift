@@ -10,4 +10,5 @@ import Foundation
 struct PassionData: Codable {
     let name: String
     let photo: String
+    let description: String
 }

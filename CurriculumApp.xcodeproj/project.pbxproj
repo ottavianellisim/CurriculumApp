@@ -28,6 +28,8 @@
 		EDFDFE22281038080022F113 /* PassionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE21281038080022F113 /* PassionViewModel.swift */; };
 		EDFDFE232810492D0022F113 /* passions.json in Resources */ = {isa = PBXBuildFile; fileRef = EDFDFE1B2810373B0022F113 /* passions.json */; };
 		EDFDFE27281132B90022F113 /* PassionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE26281132B90022F113 /* PassionItemView.swift */; };
+		EDFDFE2F28114CE10022F113 /* PassionSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE2E28114CE10022F113 /* PassionSheetView.swift */; };
+		EDFDFE3128114E7D0022F113 /* RoundedCorner.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE3028114E7D0022F113 /* RoundedCorner.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,6 +55,8 @@
 		EDFDFE1F281037D70022F113 /* PassionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionModel.swift; sourceTree = "<group>"; };
 		EDFDFE21281038080022F113 /* PassionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionViewModel.swift; sourceTree = "<group>"; };
 		EDFDFE26281132B90022F113 /* PassionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionItemView.swift; sourceTree = "<group>"; };
+		EDFDFE2E28114CE10022F113 /* PassionSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionSheetView.swift; sourceTree = "<group>"; };
+		EDFDFE3028114E7D0022F113 /* RoundedCorner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCorner.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -130,6 +134,7 @@
 		ED5EFF9327F4B8E2008D9E87 /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				EDFDFE3028114E7D0022F113 /* RoundedCorner.swift */,
 			);
 			path = Helper;
 			sourceTree = "<group>";
@@ -184,6 +189,7 @@
 			children = (
 				EDFDFE26281132B90022F113 /* PassionItemView.swift */,
 				ED67508B27FDEA9300911BF4 /* PassionView.swift */,
+				EDFDFE2E28114CE10022F113 /* PassionSheetView.swift */,
 			);
 			path = Passion;
 			sourceTree = "<group>";
@@ -288,6 +294,7 @@
 			files = (
 				ED67509B27FECE8200911BF4 /* CourseViewModel.swift in Sources */,
 				EDFDFE1E281037B20022F113 /* PassionData.swift in Sources */,
+				EDFDFE3128114E7D0022F113 /* RoundedCorner.swift in Sources */,
 				EDAA8CB52801B4190033C6AF /* ProjectsItemView.swift in Sources */,
 				ED08F47727F36E9F00BC0E13 /* ContentView.swift in Sources */,
 				ED08F4C627F492DC00BC0E13 /* WelcomeView.swift in Sources */,
@@ -298,6 +305,7 @@
 				ED67509D27FEE2F400911BF4 /* CourseModel.swift in Sources */,
 				ED67508627FDEA7100911BF4 /* HomeView.swift in Sources */,
 				EDFDFE27281132B90022F113 /* PassionItemView.swift in Sources */,
+				EDFDFE2F28114CE10022F113 /* PassionSheetView.swift in Sources */,
 				EDFDFE20281037D70022F113 /* PassionModel.swift in Sources */,
 				ED67509927FECE3100911BF4 /* CourseData.swift in Sources */,
 				ED6F355A27FF59530059F763 /* CourseView.swift in Sources */,

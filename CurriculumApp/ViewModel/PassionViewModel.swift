@@ -26,7 +26,8 @@ class PassionViewModel: ObservableObject {
             for i in 0..<results.count {
                 let name = results[i].name
                 let photo = results[i].photo
-                let newPassion = PassionModel(namePassion: name, photoPassion: photo)
+                let description = results[i].description
+                let newPassion = PassionModel(namePassion: name, photoPassion: photo, passionDescription: description)
                 self.passionsArray.append(newPassion)
             }
         }

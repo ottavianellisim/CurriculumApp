@@ -8,6 +8,12 @@
 import SwiftUI
 
 struct HomeView: View {
+    
+    @State var isPresented: Bool = false
+    @State var nameClicked: String = ""
+    @State var photoClicked: String = ""
+    @State var descriptionClicked: String = ""
+    
     var body: some View {
         TabView {
             CourseView()
@@ -20,7 +26,7 @@ struct HomeView: View {
                     Image(systemName: "book")
                     Text("Curriculum")
                 }
-            PassionView()
+            PassionView(isPresented: $isPresented, nameClicked: $nameClicked, photoClicked: $photoClicked, descriptionClicked: $descriptionClicked)
                 .tabItem {
                     Image(systemName: "logo.playstation")
                     Text("Passion")

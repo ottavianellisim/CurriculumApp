@@ -10,6 +10,10 @@ import SwiftUI
 struct PassionView: View {
     
     @ObservedObject var vm = PassionViewModel()
+    @Binding var isPresented: Bool
+    @Binding var nameClicked: String
+    @Binding var photoClicked: String
+    @Binding var descriptionClicked: String
     
     var body: some View {
         NavigationView {
@@ -17,6 +21,15 @@ struct PassionView: View {
                 ScrollView {
                     ForEach(vm.passionsArray, id: \.self) { passion in
                         PassionItemView(urlString: passion.photoPassion)
+                            .sheet(isPresented: $isPresented) {
+                                PassionSheetView(name: nameClicked, urlPhoto: photoClicked, description: descriptionClicked)
+                            }
+                            .onTapGesture {
+                                nameClicked = passion.namePassion
+                                photoClicked = passion.photoPassion
+                                descriptionClicked = passion.passionDescription
+                                self.isPresented.toggle()
+                            }
                     }
                 }
             }
@@ -34,6 +47,6 @@ struct PassionView: View {
 
 struct PassionView_Previews: PreviewProvider {
     static var previews: some View {
-        PassionView()
+        PassionView(isPresented: .constant(false), nameClicked: .constant(""), photoClicked: .constant(""), descriptionClicked: .constant(""))
     }
 }
