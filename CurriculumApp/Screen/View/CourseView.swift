@@ -21,7 +21,8 @@ struct CourseView: View {
             VStack {
                 ScrollView {
                     ForEach(vm.Courses, id: \.self) { course in
-                        CourseItemView(nameCourse: course.nameCourse, author: course.authorName, linkCourse: course.linkCourse)
+                        CourseItemView(nameCourse: course.nameCourse, author:
+                                        course.authorName, linkCourse: course.linkCourse)
                             .padding(1)
                     }
                 }
@@ -30,6 +31,9 @@ struct CourseView: View {
             .onAppear {
                 vm.fetchJSON()
             }
+            .onDisappear {
+                vm.Courses = []
+            }
         }
     }
 }
@@ -37,5 +41,6 @@ struct CourseView: View {
 struct CourseView_Previews: PreviewProvider {
     static var previews: some View {
         CourseView()
+            .preferredColorScheme(.dark)
     }
 }

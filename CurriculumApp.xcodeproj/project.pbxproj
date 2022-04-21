@@ -12,7 +12,6 @@
 		ED08F47927F36EA200BC0E13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED08F47827F36EA200BC0E13 /* Assets.xcassets */; };
 		ED08F47C27F36EA200BC0E13 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED08F47B27F36EA200BC0E13 /* Preview Assets.xcassets */; };
 		ED08F4C627F492DC00BC0E13 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED08F4C527F492DC00BC0E13 /* WelcomeView.swift */; };
-		ED5EFFB327F5A59D008D9E87 /* SwipeToUnlockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED5EFFB227F5A59D008D9E87 /* SwipeToUnlockView.swift */; };
 		ED67508627FDEA7100911BF4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67508527FDEA7100911BF4 /* HomeView.swift */; };
 		ED67508827FDEA7B00911BF4 /* CurriculumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67508727FDEA7B00911BF4 /* CurriculumView.swift */; };
 		ED67508C27FDEA9300911BF4 /* PassionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67508B27FDEA9300911BF4 /* PassionView.swift */; };
@@ -22,6 +21,12 @@
 		ED67509B27FECE8200911BF4 /* CourseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67509A27FECE8200911BF4 /* CourseViewModel.swift */; };
 		ED67509D27FEE2F400911BF4 /* CourseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED67509C27FEE2F400911BF4 /* CourseModel.swift */; };
 		ED6F355A27FF59530059F763 /* CourseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED6F355927FF59530059F763 /* CourseView.swift */; };
+		EDAA8CB52801B4190033C6AF /* ProjectsItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA8CB42801B4190033C6AF /* ProjectsItemView.swift */; };
+		EDAA8CB72801B66C0033C6AF /* ProjectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDAA8CB62801B66C0033C6AF /* ProjectsView.swift */; };
+		EDFDFE1E281037B20022F113 /* PassionData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE1D281037B20022F113 /* PassionData.swift */; };
+		EDFDFE20281037D70022F113 /* PassionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE1F281037D70022F113 /* PassionModel.swift */; };
+		EDFDFE22281038080022F113 /* PassionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDFDFE21281038080022F113 /* PassionViewModel.swift */; };
+		EDFDFE232810492D0022F113 /* passions.json in Resources */ = {isa = PBXBuildFile; fileRef = EDFDFE1B2810373B0022F113 /* passions.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,7 +36,6 @@
 		ED08F47827F36EA200BC0E13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED08F47B27F36EA200BC0E13 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ED08F4C527F492DC00BC0E13 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
-		ED5EFFB227F5A59D008D9E87 /* SwipeToUnlockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwipeToUnlockView.swift; sourceTree = "<group>"; };
 		ED67508527FDEA7100911BF4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		ED67508727FDEA7B00911BF4 /* CurriculumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurriculumView.swift; sourceTree = "<group>"; };
 		ED67508B27FDEA9300911BF4 /* PassionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionView.swift; sourceTree = "<group>"; };
@@ -41,6 +45,12 @@
 		ED67509A27FECE8200911BF4 /* CourseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseViewModel.swift; sourceTree = "<group>"; };
 		ED67509C27FEE2F400911BF4 /* CourseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseModel.swift; sourceTree = "<group>"; };
 		ED6F355927FF59530059F763 /* CourseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CourseView.swift; sourceTree = "<group>"; };
+		EDAA8CB42801B4190033C6AF /* ProjectsItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsItemView.swift; sourceTree = "<group>"; };
+		EDAA8CB62801B66C0033C6AF /* ProjectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectsView.swift; sourceTree = "<group>"; };
+		EDFDFE1B2810373B0022F113 /* passions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = passions.json; sourceTree = "<group>"; };
+		EDFDFE1D281037B20022F113 /* PassionData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionData.swift; sourceTree = "<group>"; };
+		EDFDFE1F281037D70022F113 /* PassionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionModel.swift; sourceTree = "<group>"; };
+		EDFDFE21281038080022F113 /* PassionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PassionViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,8 +83,8 @@
 		ED08F47327F36E9F00BC0E13 /* CurriculumApp */ = {
 			isa = PBXGroup;
 			children = (
-				ED67509627FECE0B00911BF4 /* Model */,
 				ED08F47427F36E9F00BC0E13 /* CurriculumAppApp.swift */,
+				ED67509627FECE0B00911BF4 /* Model */,
 				ED5EFF9327F4B8E2008D9E87 /* Helper */,
 				ED08F4C727F4979F00BC0E13 /* Screen */,
 				ED67509727FECE1200911BF4 /* ViewModel */,
@@ -99,8 +109,6 @@
 				ED08F47627F36E9F00BC0E13 /* ContentView.swift */,
 				ED08F4C527F492DC00BC0E13 /* WelcomeView.swift */,
 				ED67508527FDEA7100911BF4 /* HomeView.swift */,
-				ED67508727FDEA7B00911BF4 /* CurriculumView.swift */,
-				ED67508B27FDEA9300911BF4 /* PassionView.swift */,
 				ED08F4C827F497AD00BC0E13 /* View */,
 			);
 			path = Screen;
@@ -109,9 +117,12 @@
 		ED08F4C827F497AD00BC0E13 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ED5EFFB227F5A59D008D9E87 /* SwipeToUnlockView.swift */,
+				ED67508727FDEA7B00911BF4 /* CurriculumView.swift */,
+				ED67508B27FDEA9300911BF4 /* PassionView.swift */,
 				ED67508D27FDEB9400911BF4 /* CourseItemView.swift */,
 				ED6F355927FF59530059F763 /* CourseView.swift */,
+				EDAA8CB42801B4190033C6AF /* ProjectsItemView.swift */,
+				EDAA8CB62801B66C0033C6AF /* ProjectsView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -127,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				ED67509427FECD8900911BF4 /* courses.json */,
+				EDFDFE1B2810373B0022F113 /* passions.json */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -134,8 +146,8 @@
 		ED67509627FECE0B00911BF4 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				ED67509827FECE3100911BF4 /* CourseData.swift */,
-				ED67509C27FEE2F400911BF4 /* CourseModel.swift */,
+				EDFDFE2528104A920022F113 /* Passion */,
+				EDFDFE2428104A8B0022F113 /* Course */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -144,8 +156,27 @@
 			isa = PBXGroup;
 			children = (
 				ED67509A27FECE8200911BF4 /* CourseViewModel.swift */,
+				EDFDFE21281038080022F113 /* PassionViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EDFDFE2428104A8B0022F113 /* Course */ = {
+			isa = PBXGroup;
+			children = (
+				ED67509827FECE3100911BF4 /* CourseData.swift */,
+				ED67509C27FEE2F400911BF4 /* CourseModel.swift */,
+			);
+			path = Course;
+			sourceTree = "<group>";
+		};
+		EDFDFE2528104A920022F113 /* Passion */ = {
+			isa = PBXGroup;
+			children = (
+				EDFDFE1D281037B20022F113 /* PassionData.swift */,
+				EDFDFE1F281037D70022F113 /* PassionModel.swift */,
+			);
+			path = Passion;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,6 +238,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED08F47C27F36EA200BC0E13 /* Preview Assets.xcassets in Resources */,
+				EDFDFE232810492D0022F113 /* passions.json in Resources */,
 				ED67509527FECD8900911BF4 /* courses.json in Resources */,
 				ED08F47927F36EA200BC0E13 /* Assets.xcassets in Resources */,
 			);
@@ -220,13 +252,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED67509B27FECE8200911BF4 /* CourseViewModel.swift in Sources */,
-				ED5EFFB327F5A59D008D9E87 /* SwipeToUnlockView.swift in Sources */,
+				EDFDFE1E281037B20022F113 /* PassionData.swift in Sources */,
+				EDAA8CB52801B4190033C6AF /* ProjectsItemView.swift in Sources */,
 				ED08F47727F36E9F00BC0E13 /* ContentView.swift in Sources */,
 				ED08F4C627F492DC00BC0E13 /* WelcomeView.swift in Sources */,
+				EDFDFE22281038080022F113 /* PassionViewModel.swift in Sources */,
 				ED67508827FDEA7B00911BF4 /* CurriculumView.swift in Sources */,
+				EDAA8CB72801B66C0033C6AF /* ProjectsView.swift in Sources */,
 				ED67508C27FDEA9300911BF4 /* PassionView.swift in Sources */,
 				ED67509D27FEE2F400911BF4 /* CourseModel.swift in Sources */,
 				ED67508627FDEA7100911BF4 /* HomeView.swift in Sources */,
+				EDFDFE20281037D70022F113 /* PassionModel.swift in Sources */,
 				ED67509927FECE3100911BF4 /* CourseData.swift in Sources */,
 				ED6F355A27FF59530059F763 /* CourseView.swift in Sources */,
 				ED08F47527F36E9F00BC0E13 /* CurriculumAppApp.swift in Sources */,

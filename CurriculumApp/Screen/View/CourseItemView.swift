@@ -16,22 +16,22 @@ struct CourseItemView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .frame(width: 400, height: 150)
+                .frame(width: 350, height: 150)
                 .padding()
-                .foregroundColor(.black)
+                .foregroundColor(Color("Black"))
             ZStack {
                 HStack {
                     VStack(alignment: .leading) {
                         Text(nameCourse)
                             .bold()
                             .multilineTextAlignment(.leading)
-                            .lineLimit(2)
                             .foregroundColor(.purple)
+                            .fixedSize(horizontal: false, vertical: true)
                             .padding()
                         Text(author)
                             .multilineTextAlignment(.leading)
                             .padding()
-                            .foregroundColor(.white)
+                            .foregroundColor(Color("White"))
                     }
                     .padding(30)
                     Spacer()

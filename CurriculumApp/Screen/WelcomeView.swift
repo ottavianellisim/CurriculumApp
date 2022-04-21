@@ -39,9 +39,9 @@ struct WelcomeView: View {
                             .opacity(1.0 + (draggedOffset.height * 0.005))
                     }
                     Spacer()
-                    SwipeToUnlockView(animate: $animate, color: .white)
-                        .offset(y: animate ? -15 : 0)
-                        .opacity(1.0 + (draggedOffset.height * 0.005))
+//                    SwipeToUnlockView(animate: $animate, color: .white)
+//                        .offset(y: animate ? -15 : 0)
+//                        .opacity(1.0 + (draggedOffset.height * 0.005))
                 }
             }
             .onAppear {

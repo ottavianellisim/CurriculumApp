@@ -25,6 +25,5 @@ class CourseViewModel: ObservableObject {
                 self.Courses.append(newCourse)
             }
         }
-        
     }
 }

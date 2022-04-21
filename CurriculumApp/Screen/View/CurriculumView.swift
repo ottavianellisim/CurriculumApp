@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct CurriculumView: View {
+    
+    @ObservedObject var vm = CourseViewModel()
+    
     var body: some View {
         Text("Curriculum")
     }
