@@ -9,7 +9,7 @@ import Foundation
 
 class PassionViewModel: ObservableObject {
     
-    @Published var Passions: [PassionModel] = []
+    @Published var passionsArray: [PassionModel] = []
     
     func fetchJSON() {
         
@@ -27,7 +27,7 @@ class PassionViewModel: ObservableObject {
                 let name = results[i].name
                 let photo = results[i].photo
                 let newPassion = PassionModel(namePassion: name, photoPassion: photo)
-                self.Passions.append(newPassion)
+                self.passionsArray.append(newPassion)
             }
         }
     }
