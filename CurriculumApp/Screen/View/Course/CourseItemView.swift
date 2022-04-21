@@ -16,28 +16,29 @@ struct CourseItemView: View {
     var body: some View {
         ZStack {
             RoundedRectangle(cornerRadius: 20)
-                .frame(width: 350, height: 150)
+                .frame(maxWidth: .infinity, minHeight: 100, maxHeight: 150)
                 .padding()
-                .foregroundColor(Color("Black"))
+                .foregroundColor(.purple)
+                .opacity(0.7)
             ZStack {
                 HStack {
                     VStack(alignment: .leading) {
                         Text(nameCourse)
                             .bold()
                             .multilineTextAlignment(.leading)
-                            .foregroundColor(.purple)
+                            .foregroundColor(.white)
                             .fixedSize(horizontal: false, vertical: true)
                             .padding()
                         Text(author)
                             .multilineTextAlignment(.leading)
                             .padding()
-                            .foregroundColor(Color("White"))
+                            .foregroundColor(.white)
                     }
                     .padding(30)
                     Spacer()
                     Link(destination: URL(string: linkCourse)!) {
                         Image(systemName: "link")
-                            .foregroundColor(.purple)
+                            .foregroundColor(.black)
                             .padding(35)
                     }
                 }
