@@ -27,7 +27,8 @@ class PassionViewModel: ObservableObject {
                 let name = results[i].name
                 let photo = results[i].photo
                 let description = results[i].description
-                let newPassion = PassionModel(namePassion: name, photoPassion: photo, passionDescription: description)
+                let accentColor = results[i].accentColor
+                let newPassion = PassionModel(namePassion: name, photoPassion: photo, passionDescription: description, accentColor: accentColor)
                 self.passionsArray.append(newPassion)
             }
         }

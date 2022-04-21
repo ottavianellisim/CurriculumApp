@@ -14,6 +14,7 @@ struct PassionView: View {
     @Binding var nameClicked: String
     @Binding var photoClicked: String
     @Binding var descriptionClicked: String
+    @Binding var colorClicked: String
     
     var body: some View {
         NavigationView {
@@ -22,12 +23,13 @@ struct PassionView: View {
                     ForEach(vm.passionsArray, id: \.self) { passion in
                         PassionItemView(urlString: passion.photoPassion)
                             .sheet(isPresented: $isPresented) {
-                                PassionSheetView(name: nameClicked, urlPhoto: photoClicked, description: descriptionClicked)
+                                PassionSheetView(name: nameClicked, urlPhoto: photoClicked, description: descriptionClicked, accentColor: colorClicked)
                             }
                             .onTapGesture {
                                 nameClicked = passion.namePassion
                                 photoClicked = passion.photoPassion
                                 descriptionClicked = passion.passionDescription
+                                colorClicked = passion.accentColor
                                 self.isPresented.toggle()
                             }
                     }
@@ -47,6 +49,6 @@ struct PassionView: View {
 
 struct PassionView_Previews: PreviewProvider {
     static var previews: some View {
-        PassionView(isPresented: .constant(false), nameClicked: .constant(""), photoClicked: .constant(""), descriptionClicked: .constant(""))
+        PassionView(isPresented: .constant(false), nameClicked: .constant(""), photoClicked: .constant(""), descriptionClicked: .constant(""), colorClicked: .constant(""))
     }
 }

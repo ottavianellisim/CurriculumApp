@@ -12,6 +12,9 @@ struct PassionSheetView: View {
     let name: String
     let urlPhoto: String
     let description: String
+    let accentColor: String
+    @State private var isDragStarted: Bool = false
+    @State private var draggedOffset = CGSize.zero
     
     var body: some View {
         GeometryReader { geo in
@@ -34,6 +37,7 @@ struct PassionSheetView: View {
                         Text(name)
                             .bold()
                             .font(.largeTitle)
+                            .foregroundColor(Color(accentColor))
                             .padding()
                         Spacer()
                     }
@@ -42,6 +46,8 @@ struct PassionSheetView: View {
                             Text(description)
                                 .font(.body)
                                 .italic()
+                                .foregroundColor(Color(accentColor))
+                                .opacity(0.5)
                                 .padding()
                         }
                     }
@@ -53,6 +59,6 @@ struct PassionSheetView: View {
 
 struct PassionSheetView_Previews: PreviewProvider {
     static var previews: some View {
-        PassionSheetView(name: "Golden State Warriors", urlPhoto: "", description: "")
+        PassionSheetView(name: "Golden State Warriors", urlPhoto: "", description: "", accentColor: "")
     }
 }

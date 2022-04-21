@@ -13,6 +13,7 @@ struct HomeView: View {
     @State var nameClicked: String = ""
     @State var photoClicked: String = ""
     @State var descriptionClicked: String = ""
+    @State var colorClicked: String = ""
     
     var body: some View {
         TabView {
@@ -26,7 +27,7 @@ struct HomeView: View {
                     Image(systemName: "book")
                     Text("Curriculum")
                 }
-            PassionView(isPresented: $isPresented, nameClicked: $nameClicked, photoClicked: $photoClicked, descriptionClicked: $descriptionClicked)
+            PassionView(isPresented: $isPresented, nameClicked: $nameClicked, photoClicked: $photoClicked, descriptionClicked: $descriptionClicked, colorClicked: $colorClicked)
                 .tabItem {
                     Image(systemName: "logo.playstation")
                     Text("Passion")
