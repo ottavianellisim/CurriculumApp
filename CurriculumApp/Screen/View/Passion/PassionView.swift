@@ -18,7 +18,7 @@ struct PassionView: View {
     
     var body: some View {
         NavigationView {
-            VStack {
+            VStack  {
                 ScrollView {
                     ForEach(vm.passionsArray, id: \.self) { passion in
                         PassionItemView(urlString: passion.photoPassion)
